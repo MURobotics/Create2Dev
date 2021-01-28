@@ -1,0 +1,2 @@
+set(create_msgs_MESSAGE_FILES "/home/mu-robotics/Documents/project_WS/src/create_robot/create_msgs/msg/Bumper.msg;/home/mu-robotics/Documents/project_WS/src/create_robot/create_msgs/msg/ChargingState.msg;/home/mu-robotics/Documents/project_WS/src/create_robot/create_msgs/msg/DefineSong.msg;/home/mu-robotics/Documents/project_WS/src/create_robot/create_msgs/msg/Mode.msg;/home/mu-robotics/Documents/project_WS/src/create_robot/create_msgs/msg/PlaySong.msg")
+set(create_msgs_SERVICE_FILES "")

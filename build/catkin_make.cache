@@ -1,0 +1,2 @@
+core:create_robot/create_bringup:create_robot/create_description:create_robot/create_driver:create_robot/create_msgs:create_robot/create_robot:gazebo/project:gazebo/simulation_description:gazebo/simulation_gazebo:turtlebot/turtlebot:turtlebot/turtlebot_bringup:turtlebot/turtlebot_capabilities:turtlebot/turtlebot_description:turtlebot/turtlebot_teleop:twist_mux
+-DCATKIN_DEVEL_PREFIX=/home/mu-robotics/Documents/project_WS/devel -DCMAKE_INSTALL_PREFIX=/home/mu-robotics/Documents/project_WS/install -G Unix Makefiles

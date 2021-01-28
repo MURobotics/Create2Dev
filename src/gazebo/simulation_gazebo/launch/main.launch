@@ -1,0 +1,20 @@
+<launch>
+  <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+  <!-- <env name="GAZEBO_MODEL_PATH" value="/home/mu-robotics/Documents/project_WS/src/" />-->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find simulation_gazebo)/worlds/YOUR.world"/>
+    <!-- more default parameters can be changed here -->
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="recording" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- Different namespace so you can add multiple robots -->
+  <group ns="Bot_1">
+    <include file="$(find create_description)/launch/create_2.launch">
+    </include>
+        <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model robot" />
+  </group>
+</launch>

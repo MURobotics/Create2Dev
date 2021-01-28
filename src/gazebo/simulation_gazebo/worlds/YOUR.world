@@ -1,0 +1,12 @@
+<sdf version="1.5">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+  </world>
+</sdf>
+
+<!-- From http://jackmorrison.me/2016/05/27/hello-world-with-ros-and-gazebo.html -->

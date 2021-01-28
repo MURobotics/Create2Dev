@@ -1,0 +1,9 @@
+topics:
+  - name: ObAvoidance
+    topic: /obstacle_avoidance/cmd_vel
+    timeout: 0.1
+    priority: 10
+  - name: Keyboard
+    topic: /keyop/cmd_vel
+    timeout: 0.1
+    priority: 9
